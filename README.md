@@ -18,18 +18,6 @@ Meu objetivo é atuar como analista de dados e, no médio prazo, migrar para eng
 
 ---
 
-### 📊 Projetos
-
-**[Política de desconto e lucratividade](https://github.com/Mateus-ADSjpg/politica-desconto-lucratividade)**
-
-Análise de 10 mil vendas em PostgreSQL com dashboard em Power BI, investigando a partir de qual
-desconto a venda deixa de compensar. Da modelagem das tabelas à recomendação de negócio, incluindo
-tratamento de dados, deduplicação e as limitações da análise.
-
-`PostgreSQL` `Power BI` `Análise de dados`
-
----
-
 ### 🌱 No momento
 
 - Aprofundando Python com projetos práticos
