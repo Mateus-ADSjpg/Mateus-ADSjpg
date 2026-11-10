@@ -1,52 +1,58 @@
 <h1>Mateus Santos</h1>
 
-Oi, eu sou o Mateus. Estudo Análise e Desenvolvimento de Sistemas na UNIP e estou construindo minha carreira na área de dados.
+Oi, eu sou o Mateus. Estudo Análise e Desenvolvimento de Sistemas na UNIP e estou me preparando para atuar como **engenheiro de dados júnior**.
 
-Vim da área comercial e de trade marketing, onde trabalhei com indicadores de equipe de campo, dashboards em Power BI e Excel, limpeza de bases e automações em Python e Power Query. Foi ali que percebi que o que eu mais gostava era transformar dados bagunçados em resposta para o negócio.
+Vim da área comercial e de trade marketing, onde acompanhava indicadores de equipe de campo, montava dashboards em Power BI e Excel, limpava bases e automatizava tarefas com Python e Power Query. Foi ali que percebi que o que eu mais gostava não era o relatório final, e sim o caminho até ele: pegar dado bagunçado, organizar e deixar pronto para alguém confiar no número.
 
-Hoje estou aprofundando SQL e Python e construindo projetos com dados reais. Meu objetivo é atuar como analista de dados e, mais pra frente, migrar para engenharia de dados.
+Hoje meu foco é SQL, Python e pipelines de dados. Aprendo melhor construindo, então quase tudo que estudo vira projeto aqui.
 
-### Análise de dados
+### O que estou construindo agora
+
+Um projeto de engenharia de dados que simula a migração de um data warehouse legado para o Lakehouse, com dados públicos de fundos de investimento da CVM. A ideia é o mesmo pipeline rodar em três ambientes:
+
+- **v1:** Databricks (Spark, Delta Lake, Unity Catalog e Jobs), com reconciliação entre origem e destino e testes de qualidade · 🚧 em construção
+- **v2:** local com Docker e Airflow · ⏳ próximo
+- **v3:** AWS · ⏳ depois
+
+### Projetos
+
+| Projeto | O que faz | Ferramentas |
+|---|---|---|
+| [Análise de preços de combustíveis](https://github.com/Mateus-ADSjpg/analise-precos-combustiveis) | Pipeline com 3 milhões de preços da ANP (2023 a 2026): limpeza em Python, carga no PostgreSQL, modelo estrela e dashboard interativo | Python, pandas, SQLAlchemy, PostgreSQL, Power BI |
+| [Política de desconto e lucratividade](https://github.com/Mateus-ADSjpg/politica-desconto-lucratividade) | Descobre a partir de qual desconto a venda passa a dar prejuízo e quanto isso custa para a operação | PostgreSQL, Power BI |
+| [Sistema Amazônia](https://github.com/Mateus-ADSjpg/sistema-amazonia) | Portal de um clube de desbravadores, no ar, com painel restrito da secretaria e segurança feita no banco (RLS) | React, Supabase, Vercel |
+| [Estudos de SQL](https://github.com/Mateus-ADSjpg/estudos-sql) | Meus exercícios da trilha de SQL, do básico ao avançado, módulo por módulo | PostgreSQL, DBeaver |
+
+### Ferramentas que já usei em projetos
 
 <p>
   <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxlbGxpcHNlIGN4PSIxMiIgY3k9IjUiIHJ4PSI4IiByeT0iMyIvPjxwYXRoIGQ9Ik00IDcuNXY0YzAgMS42NiAzLjU4IDMgOCAzczgtMS4zNCA4LTN2LTRjLTEuNiAxLjQtNC43IDIuMi04IDIuMlM1LjYgOC45IDQgNy41eiIvPjxwYXRoIGQ9Ik00IDE0djQuNWMwIDEuNjYgMy41OCAzIDggM3M4LTEuMzQgOC0zVjE0Yy0xLjYgMS40LTQuNyAyLjItOCAyLjJTNS42IDE1LjQgNCAxNHoiLz48L3N2Zz4=" alt="SQL"></a>
-  <a href="https://www.microsoft.com/power-platform/products/power-bi"><img src="https://img.shields.io/badge/Power%20BI-000000?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlBvd2VyIEJJPC90aXRsZT48cGF0aCBkPSJNMTAgMTJhMSAxIDAgMCAxIDEgMXYxMUg0YTEgMSAwIDAgMS0xLTFWMTNhMSAxIDAgMCAxIDEtMWg2Wm0tMi0uNVY3YTEgMSAwIDAgMSAxLTFoNmExIDEgMCAwIDEgMSAxdjE3aC00LjVWMTNhMS41IDEuNSAwIDAgMC0xLjUtMS41SDhabTUtNlYxYTEgMSAwIDAgMSAxLTFoNmExIDEgMCAwIDEgMSAxdjIyYTEgMSAwIDAgMS0xIDFoLTMuNVY3QTEuNSAxLjUgMCAwIDAgMTUgNS41aC0yWiIvPjwvc3ZnPg==" alt="Power BI"></a>
-  <a href="https://www.microsoft.com/microsoft-365/excel"><img src="https://img.shields.io/badge/Excel-000000?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0zIDNoMTh2MThIM3ogTTcuMiA3aDIuNWwyLjMgMy42TDE0LjMgN2gyLjVsLTMuNSA1IDMuNSA1aC0yLjVMMTIgMTMuNCA5LjcgMTdINy4ybDMuNS01eiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+" alt="Excel"></a>
+  <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxlbGxpcHNlIGN4PSIxMiIgY3k9IjUiIHJ4PSI4IiByeT0iMyIvPjxwYXRoIGQ9Ik00IDcuNXY0YzAgMS42NiAzLjU4IDMgOCAzczgtMS4zNCA4LTN2LTRjLTEuNiAxLjQtNC43IDIuMi04IDIuMlM1LjYgOC45IDQgNy41eiIvPjxwYXRoIGQ9Ik00IDE0djQuNWMwIDEuNjYgMy41OCAzIDggM3M4LTEuMzQgOC0zVjE0Yy0xLjYgMS40LTQuNyAyLjItOCAyLjJTNS42IDE1LjQgNCAxNHoiLz48L3N2Zz4=" alt="PostgreSQL"></a>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
   <a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"></a>
-</p>
-
-### Engenharia de dados - Em Desenvolvimento...
-
-<p>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
-  <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxlbGxpcHNlIGN4PSIxMiIgY3k9IjUiIHJ4PSI4IiByeT0iMyIvPjxwYXRoIGQ9Ik00IDcuNXY0YzAgMS42NiAzLjU4IDMgOCAzczgtMS4zNCA4LTN2LTRjLTEuNiAxLjQtNC43IDIuMi04IDIuMlM1LjYgOC45IDQgNy41eiIvPjxwYXRoIGQ9Ik00IDE0djQuNWMwIDEuNjYgMy41OCAzIDggM3M4LTEuMzQgOC0zVjE0Yy0xLjYgMS40LTQuNyAyLjItOCAyLjJTNS42IDE1LjQgNCAxNHoiLz48L3N2Zz4=" alt="PostgreSQL"></a>
   <a href="https://www.sqlalchemy.org/"><img src="https://img.shields.io/badge/SQLAlchemy-000000?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"></a>
+  <a href="https://www.databricks.com/"><img src="https://img.shields.io/badge/Databricks-000000?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks"></a>
+  <a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/Apache%20Spark-000000?style=for-the-badge&logo=apachespark&logoColor=white" alt="Apache Spark"></a>
+</p>
+<p>
+  <a href="https://www.microsoft.com/power-platform/products/power-bi"><img src="https://img.shields.io/badge/Power%20BI-000000?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlBvd2VyIEJJPC90aXRsZT48cGF0aCBkPSJNMTAgMTJhMSAxIDAgMCAxIDEgMXYxMUg0YTEgMSAwIDAgMS0xLTFWMTNhMSAxIDAgMCAxIDEtMWg2Wm0tMi0uNVY3YTEgMSAwIDAgMSAxLTFoNmExIDEgMCAwIDEgMSAxdjE3aC00LjVWMTNhMS41IDEuNSAwIDAgMC0xLjUtMS41SDhabTUtNlYxYTEgMSAwIDAgMSAxLTFoNmExIDEgMCAwIDEgMSAxdjIyYTEgMSAwIDAgMS0xIDFoLTMuNVY3QTEuNSAxLjUgMCAwIDAgMTUgNS41aC0yWiIvPjwvc3ZnPg==" alt="Power BI"></a>
+  <a href="https://www.microsoft.com/microsoft-365/excel"><img src="https://img.shields.io/badge/Excel-000000?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0zIDNoMTh2MThIM3ogTTcuMiA3aDIuNWwyLjMgMy42TDE0LjMgN2gyLjVsLTMuNSA1IDMuNSA1aC0yLjVMMTIgMTMuNCA5LjcgMTdINy4ybDMuNS01eiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+" alt="Excel"></a>
   <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
   <a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://www.linux.org/"><img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"></a>
-  <a href="#engenharia-de-dados"><img src="https://img.shields.io/badge/Pipelines-000000?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiPjxjaXJjbGUgY3g9IjQiIGN5PSIxMiIgcj0iMi41IiBmaWxsPSJ3aGl0ZSIvPjxjaXJjbGUgY3g9IjIwIiBjeT0iNSIgcj0iMi41IiBmaWxsPSJ3aGl0ZSIvPjxjaXJjbGUgY3g9IjIwIiBjeT0iMTkiIHI9IjIuNSIgZmlsbD0id2hpdGUiLz48cGF0aCBkPSJNNi41IDEyaDRNMTAuNSAxMmMwLTQgMi03IDctN00xMC41IDEyYzAgNCAyIDcgNyA3Ii8+PC9zdmc+" alt="Pipelines"></a>
-  <a href="#engenharia-de-dados"><img src="https://img.shields.io/badge/Data%20Warehouse-000000?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyIDIgNy41VjIyaDIwVjcuNXpNNSAyMHYtOWgxNHY5aC0ydi03SDd2N3ptNC01aDZ2MS42SDl6bTAgM2g2VjIwSDl6Ii8+PC9zdmc+" alt="Data Warehouse"></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white" alt="React"></a>
+  <a href="https://supabase.com/"><img src="https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"></a>
 </p>
-<p>
-  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
-  <a href="https://airflow.apache.org/"><img src="https://img.shields.io/badge/Apache%20Airflow-000000?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Apache Airflow"></a>
-  <a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/Apache%20Spark-000000?style=for-the-badge&logo=apachespark&logoColor=white" alt="Apache Spark"></a>
-  <a href="https://www.getdbt.com/"><img src="https://img.shields.io/badge/dbt-000000?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPmRidDwvdGl0bGU+PHBhdGggZD0iTTE3LjkwMDQgOS4zNzYzYTguMTQ4OCA4LjE0ODggMCAwIDAtMy4wNDIxLTMuMTIwNmwxLjc3MDguODM4NWExMC4yODc0IDEwLjI4NzQgMCAwIDEgMy43NCAzLjAwMDdsMy4yMzQtNS45Mjk1YTIuODU0NiAyLjg1NDYgMCAwIDAtLjA2MTEtMi45NjA0QzIyLjc1NjYuMDM3MSAyMS4yMTEyLS4zNDA5IDE5Ljk3NTQuMzMyN2wtNS44NzQ5IDMuMjEwMWE0LjM2MTIgNC4zNjEyIDAgMCAxLTQuMTc2MSAwTDQuMTc2OS40MDhhMi44NTQ1IDIuODU0NSAwIDAgMC0yLjk1OTIuMDYzMmMtMS4xNjczLjc4NTMtMS41NDUyIDIuMzMtLjg3MjMgMy41NjU1TDMuNTUgOS45MTA2YTQuMzYxMiA0LjM2MTIgMCAwIDEgMCA0LjE3NzJsLTMuMTI3MiA1Ljc0M2EyLjg2IDIuODYgMCAwIDAgLjA4NSAyLjk5NzRjLjc5NCAxLjE0MzggMi4zMjI1IDEuNTA1NCAzLjU0NDguODM4NWw2LjA1ODEtMy4zMDQ5YTEwLjI4NzcgMTAuMjg3NyAwIDAgMS0zLjAwNTEtMy43NDU0bC0uODM3NC0xLjc3MDhhOC4xNDggOC4xNDggMCAwIDAgMy4xMjA2IDMuMDQyMWwxMC41ODMyIDUuNzc5YzEuMjIxMy42NjYgMi43NDgxLjMwNTUgMy41NDI2LS44MzYzYTIuODY5OSAyLjg2OTkgMCAwIDAgLjA3OTYtMy4wMDE4TDE3LjkwMDQgOS4zNzYzem0zLjM4MDEtNy43MzUxYy42MDIyIDAgMS4wOTA0LjQ4ODIgMS4wOTA0IDEuMDkwNHMtLjQ4ODIgMS4wOTA0LTEuMDkwNCAxLjA5MDQtMS4wOTA0LS40ODgyLTEuMDkwNC0xLjA5MDQuNDg4Mi0xLjA5MDQgMS4wOTA0LTEuMDkwNHpNMi43NDQyIDMuODIyYy0uNjAyMiAwLTEuMDkwNC0uNDg4Mi0xLjA5MDQtMS4wOTA0cy40ODgyLTEuMDkwNCAxLjA5MDQtMS4wOTA0IDEuMDkwNC40ODgyIDEuMDkwNCAxLjA5MDRTMy4zNDY0IDMuODIyIDIuNzQ0MiAzLjgyMnptMCAxOC41MzYzYy0uNjAyMiAwLTEuMDkwNC0uNDg4Mi0xLjA5MDQtMS4wOTA0IDAtLjYwMjIuNDg4Mi0xLjA5MDQgMS4wOTA0LTEuMDkwNHMxLjA5MDQuNDg4MiAxLjA5MDQgMS4wOTA0YzAgLjYwMjItLjQ4ODIgMS4wOTA0LTEuMDkwNCAxLjA5MDR6bTEwLjM1ODUtMTEuNDQ4OWMtMS4yMDA4LS4wMDM1LTIuMTc3Ljk2NzItMi4xODA1IDIuMTY3OWEyLjE3MzggMi4xNzM4IDAgMCAwIC43MDUyIDEuNjA5MWMtMS40ODcyLS4yMDkxLTIuNTIzNC0xLjU4NDMtMi4zMTQyLTMuMDcxNi4yMDkxLTEuNDg3MiAxLjU4NDMtMi41MjM0IDMuMDcxNi0yLjMxNDJhMi43MTk0IDIuNzE5NCAwIDAgMSAyLjMxNDIgMi4zMTQyIDIuMTYyMyAyLjE2MjMgMCAwIDAtMS41OTYzLS43MDU0em04LjE3NzggMTEuNDQ4OWMtLjYwMjIgMC0xLjA5MDQtLjQ4ODItMS4wOTA0LTEuMDkwNCAwLS42MDIyLjQ4ODItMS4wOTA0IDEuMDkwNC0xLjA5MDRzMS4wOTA0LjQ4ODIgMS4wOTA0IDEuMDkwNGMwIC42MDIyLS40ODgyIDEuMDkwNC0xLjA5MDQgMS4wOTA0eiIvPjwvc3ZnPg==" alt="dbt"></a>
-  <a href="https://aws.amazon.com/"><img src="https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTIuNSAxMy41YzUuNSA0IDEzLjUgNCAxOSAwIi8+PHBhdGggZD0iTTE3LjUgMTIuMmw0IDEuMy0xLjIgNCIvPjwvc3ZnPg==" alt="AWS"></a>
-  <a href="https://www.databricks.com/"><img src="https://img.shields.io/badge/Databricks-000000?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks"></a>
-  <a href="#engenharia-de-dados"><img src="https://img.shields.io/badge/Data%20Lake-000000?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PHBhdGggZD0iTTIgN2MyLjUtMiA1LTIgNy41IDBzNSAyIDcuNSAwIDMuNS0xLjUgNS0wLjVNMiAxMmMyLjUtMiA1LTIgNy41IDBzNSAyIDcuNSAwIDMuNS0xLjUgNS0wLjVNMiAxN2MyLjUtMiA1LTIgNy41IDBzNSAyIDcuNSAwIDMuNS0xLjUgNS0wLjUiLz48L3N2Zz4=" alt="Data Lake"></a>
-  <a href="#engenharia-de-dados"><img src="https://img.shields.io/badge/Cloud-000000?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOS4zNSAxMC4wNEE3LjQ5IDcuNDkgMCAwIDAgMTIgNEM5LjExIDQgNi42IDUuNjQgNS4zNSA4LjA0QTUuOTkgNS45OSAwIDAgMCAwIDE0YTYgNiAwIDAgMCA2IDZoMTNhNSA1IDAgMCAwIC4zNS05Ljk2eiIvPjwvc3ZnPg==" alt="Cloud"></a>
-</p>
+
+**Estudando agora:** SQL avançado, Python e cloud. Docker, Airflow e AWS entram conforme o projeto de engenharia avança.
 
 ### Certificados
 
-- Microsoft Power BI para Business Intelligence e Data Science — Data Science Academy (2026)
-- Imersão Engenharia de Dados — Alura (2026)
-- Big Data & Analytics — FIAP (2026)
-- Imersão Python para Análise de Dados — Alura (2026)
+- Microsoft Power BI para Business Intelligence e Data Science, Data Science Academy (2026)
+- Imersão Engenharia de Dados, Alura (2026): pipeline com dados da ANAC no Databricks com PySpark e SQL
+- Big Data & Analytics, FIAP (2026)
+- Imersão Python para Análise de Dados, Alura (2026)
 
-### Redes
+### Contato
 
 <p>
   <a href="https://www.linkedin.com/in/mateus-santosads/"><img src="https://img.shields.io/badge/Mateus%20Santos-000000?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPkxpbmtlZEluPC90aXRsZT48cGF0aCBkPSJNMjAuNDQ3IDIwLjQ1MmgtMy41NTR2LTUuNTY5YzAtMS4zMjgtLjAyNy0zLjAzNy0xLjg1Mi0zLjAzNy0xLjg1MyAwLTIuMTM2IDEuNDQ1LTIuMTM2IDIuOTM5djUuNjY3SDkuMzUxVjloMy40MTR2MS41NjFoLjA0NmMuNDc3LS45IDEuNjM3LTEuODUgMy4zNy0xLjg1IDMuNjAxIDAgNC4yNjcgMi4zNyA0LjI2NyA1LjQ1NXY2LjI4NnpNNS4zMzcgNy40MzNjLTEuMTQ0IDAtMi4wNjMtLjkyNi0yLjA2My0yLjA2NSAwLTEuMTM4LjkyLTIuMDYzIDIuMDYzLTIuMDYzIDEuMTQgMCAyLjA2NC45MjUgMi4wNjQgMi4wNjMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY0IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjIyIDBoLjAwM3oiLz48L3N2Zz4=" alt="LinkedIn"></a>
